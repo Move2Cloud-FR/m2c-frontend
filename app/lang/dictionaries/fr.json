@@ -1,0 +1,845 @@
+{
+  "name": "FR",
+  "society": {
+    "infos": {
+      "location": "66 Av. des Champs-Élysées, 75008 Paris",
+      "phone": "(+33) 01 89 48 01 50",
+      "email": "contact@move2cloud.fr"
+    }
+  },
+  "home": {
+    "title": "Accueil",
+    "description": "Move2Cloud est une société d'experts spécialisée dans le Data, le Cloud et le DevOps. Notre équipe d'experts propose des services de migration vers le cloud, de gestion des données et de conseil DevOps.",
+    "header": {
+      "content": {
+        "infos": {
+          "title": "Move2Cloud est une société d'experts spécialisés dans la Data, le Cloud et le DevOps...",
+          "button": "En savoir plus"
+        },
+        "image": "home-header.png"
+      }
+    },
+    "cloudProviders": {
+      "header": {
+        "title": "Les 3 meilleurs fournisseurs de cloud"
+      },
+      "content": {
+        "logo": {
+          "alt": "Fournisseurs de cloud",
+          "image": "cloud-providers.png"
+        },
+        "texts": [
+          "<strong>AWS</strong> a été lancé en 2006 et a connu une croissance explosive depuis lors, générant des revenus de 80 milliards de dollars et un bénéfice d'exploitation de 22,8 milliards de dollars en 2022. <strong>AWS</strong> offre une variété de services, y compris la base de données, le stockage , applications Web et mobiles, machine learning, etc. Selon Amazon, le nombre d'utilisateurs <strong>AWS</strong> actifs dépasse le million avec des clients tels que Goldman Sachs, Disney, Samsung, Snapchat, etc.",
+          "<strong>AWS</strong> continue d'attirer de gros clients, pendant les <a href='https://s2.q4cdn.com/299287126/files/doc_financials/2022/q4/Q4-2022-Amazon-Earnings- Release.pdf' target='_noblank'>quatrième trimestre</a>, il a ajouté Yahoo Ad Tech, Brookfield Asset Management, Wallbox, American Family Insurance, etc. En plus de cela, <strong>AWS</strong> a également lancé de nouvelles régions en Espagne et en Suisse ainsi qu'une deuxième région en Inde pour poursuivre l'expansion de son empreinte infrastructurelle. À la fin de 2022, <strong>AWS</strong> compte 96 zones de disponibilité dans 30 régions géographiques dans le monde, avec des plans annoncés pour lancer 15 zones de disponibilité supplémentaires et 5 régions <strong>AWS</strong> supplémentaires.",
+          "Microsoft <strong>Azure</strong> a été lancé en 2010, mais le segment Microsoft Intelligent Cloud comprend d'autres services cloud tels que SQL Server, Windows Server, Visual Studio, entre autres. Les services du segment Intelligent Cloud comprennent les bases de données, le stockage de données, l'intelligence artificielle, la mise en réseau, les applications Web et mobiles, etc. 34,8 milliards de dollars. Microsoft bénéficie d'une activité de cloud computing qui génère en permanence une marge d'exploitation vraiment spectaculaire supérieure à 40%.",
+          "Selon <a href='https://dgtlinfra.com/top-10-cloud-service-providers-2022/' target='_noblank'>Dgtl Ingfra</a>, fin 2022 Microsoft <strong> Azure</strong> comptait 60 régions géographiques dans le monde et 116 zones de disponibilité. Ces chiffres sont considérablement plus élevés que ceux d'<strong>AWS</strong> et de <strong>Google Cloud</strong> qui, ensemble, comptent 64 régions géographiques. Cela donne bien sûr à Microsoft un avantage concurrentiel en ce qui concerne sa capacité à attirer les entreprises du monde entier vers ses services cloud.",
+          "<strong>Google Cloud</strong> a été mis à la disposition des clients fin 2011 et est depuis devenu le troisième fournisseur de services cloud au monde, générant des revenus de 26,3 milliards de dollars en 2022. Services <strong>Google Cloud</strong> comprennent les bases de données, la sécurité, l'analyse intelligente, l'intelligence artificielle, etc. Selon <a href='https://dgtlinfra.com/top-10-cloud-service-providers-2022/' target='_noblank'>Dgtl Ingfra</a>, à fin 2022, <strong>Google Cloud</strong> compte 34 régions et 103 zones de disponibilité opérationnelles. Ces régions comprennent les États-Unis, les Amériques, l'Europe et l'Asie-Pacifique. Grâce à sa portée mondiale, Google Cloud a pu attirer des <a href='https://cloud.google.com/customers' target='_noblank'>clients renommés</a> tels qu'Airbus, Procter & Gamble , Carrefour, PayPal, Vodafone, Twitter, entre autres."
+        ]
+      }
+    },
+    "benefits": {
+      "header": {
+        "title": "Avantages de l'utilisation du Cloud pour les entreprises"
+      },
+      "content": {
+        "cards": [
+          {
+            "title": "Collaboration",
+            "icon": "collaboration.svg"
+          },
+          {
+            "title": "Mobilité",
+            "icon": "mobility.svg"
+          },
+          {
+            "title": "Prévention de la perte de données",
+            "icon": "data-lost-prevention.svg"
+          },
+          {
+            "title": "Securité",
+            "icon": "security.svg"
+          },
+          {
+            "title": "Productivité",
+            "icon": "productivity.svg"
+          },
+          {
+            "title": "Faible coût",
+            "icon": "low-cost.svg"
+          },
+          {
+            "title": "Mise à jour logicielle",
+            "icon": "software-update.svg"
+          },
+          {
+            "title": "Flexibilité",
+            "icon": "flexibility.svg"
+          }
+        ],
+        "main": {
+          "image": "cloud.png"
+        }
+      }
+    },
+    "cloudSteps": {
+      "header": {
+        "title": "Étapes de migration vers le cloud"
+      },
+      "content": {
+        "cards": [
+          {
+            "text": "Premier rendez-vous où vous nous parlerez de votre entreprise.",
+            "icon": "star.svg"
+          },
+          {
+            "text": "Nous reviendrons vers vous avec une solution adaptée à vos besoins spécifiques.",
+            "icon": "star.svg"
+          },
+          {
+            "text": "Une fois que nous avons convenu de la solution, nous nous mettons au travail pour mettre en œuvre votre système.",
+            "icon": "star.svg"
+          },
+          {
+            "text": "Intégration transparente et sécurisée de vos processus métier existants.",
+            "icon": "star.svg"
+          },
+          {
+            "text": "Nous le gardons simple et convivial, mais sommes là pour vous si vous avez besoin d'un support technique continu.",
+            "icon": "star.svg"
+          }
+        ]
+      }
+    },
+    "tools": {
+      "header": {
+        "title": "Outils et technologies que nous utilisons"
+      },
+      "content": {
+        "cards": [
+          {
+            "title": "Fournisseurs de cloud",
+            "description": "AWS, Azure, Alibaba, GCP",
+            "icons": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
+          },
+          {
+            "title": "Conteneurs et orchestration",
+            "description": "Docker, Kubernetes, Helm, Mirantis",
+            "icons": ["7.png", "8.png", "9.png", "10.png", "11.png", "12.png"]
+          },
+          {
+            "title": "CI/CD",
+            "description": "Jenkins, GitLab, GitHub, TeamCity",
+            "icons": [
+              "13.png",
+              "14.png",
+              "15.jpg",
+              "16.png",
+              "17.png",
+              "18.png"
+            ]
+          },
+          {
+            "title": "Surveillance",
+            "description": "Datadog, Pagerduty, Sysdig, SignalFX",
+            "icons": [
+              "19.svg",
+              "20.png",
+              "21.png",
+              "22.png",
+              "23.png",
+              "24.png"
+            ]
+          },
+          {
+            "title": "APIsation",
+            "description": "Refactorisation des projets hérités en microservices REST et API sans serveur",
+            "icons": [
+              "25.svg",
+              "26.png",
+              "27.png",
+              "28.png",
+              "29.svg",
+              "30.png"
+            ]
+          },
+          {
+            "title": "Bigdata",
+            "description": "Créez des environnements pour le bigdata avec Spark Streaming pour le traitement des données en temps réel",
+            "icons": [
+              "31.jpeg",
+              "32.png",
+              "33.png",
+              "34.png",
+              "35.jpg",
+              "36.png"
+            ]
+          },
+          {
+            "title": "Provisionnement des infrastructures",
+            "description": "Terraform, Terragrunt, AWS Cloudformation et autres outils pour Infra-As-Code",
+            "icons": [
+              "37.png",
+              "38.png",
+              "39.png",
+              "40.png",
+              "41.png",
+              "42.png"
+            ]
+          },
+          {
+            "title": "Gestion de base de données",
+            "description": "Oracle, Postegres, MongoDB, DynamoDB, Hbase et tous types de bases de données",
+            "icons": [
+              "43.png",
+              "44.png",
+              "45.png",
+              "46.jpg",
+              "47.jpeg",
+              "48.png"
+            ]
+          }
+        ]
+      }
+    },
+    "faq": {
+      "header": {
+        "title": "FAQ"
+      },
+      "content": [
+        {
+          "question": "Qu'est-ce que le « cloud » exactement ?",
+          "answer": "Le « cloud » est essentiellement un emplacement sur Internet où les données et les applications peuvent être stockées en toute sécurité."
+        },
+        {
+          "question": "Pourquoi en ai-je besoin ?",
+          "answer": "Principalement parce que cela vous permettra de vous concentrer sur votre cœur de métier plutôt que sur l'informatique, mais aussi parce qu'une fois que vous vous y serez habitué, cela peut vraiment transformer votre façon de faire des affaires."
+        },
+        {
+          "question": "Est-il difficile de passer au cloud ?",
+          "answer": "Techniquement, ce n'est pas difficile, mais il est important d'avoir des conseils d'experts pour décider quelles solutions fonctionneront pour vous."
+        }
+      ]
+    }
+  },
+  "aboutUs": {
+    "title": "À propos de nous",
+    "description": "Move2Cloud est une société d'experts spécialisée dans le Data, le Cloud et le DevOps. Notre équipe d'experts propose des services de migration vers le cloud, de gestion des données et de conseil DevOps.",
+    "team": {
+      "header": {
+        "title": "L'équipe de rêve"
+      },
+      "content": {
+        "cards": [
+          {
+            "linkedin": "https://www.linkedin.com/in/issaabderrahmen/",
+            "avatar": "abderrahmen.jpeg",
+            "fullName": "Abderrahmen ISSA",
+            "job": "Directeur"
+          },
+          {
+            "linkedin": "https://www.linkedin.com/in/cloh%C3%A9-delwalle/",
+            "avatar": "clohe.jpeg",
+            "fullName": "Clohé DELWALLE",
+            "job": "Manager associé"
+          },
+          {
+            "linkedin": "https://www.linkedin.com/in/syrine-braham-8157a4212/",
+            "avatar": "syrine.jpeg",
+            "fullName": "Syrine BRAHAM",
+            "job": "Ingénieur d'affaires"
+          },
+          {
+            "avatar": "zahra.png",
+            "fullName": "Zahra G.",
+            "job": "Ingénieur Devops"
+          },
+          {
+            "avatar": "Sabrine.jpg",
+            "fullName": "Sabrine Z.",
+            "job": "Data Scientist / Data Analyst"
+          },
+          {
+            "avatar": "unknown.jpeg",
+            "fullName": "Iadh R.",
+            "job": "Administrateur Réseaux"
+          },
+          {
+            "avatar": "ahmed.jpeg",
+            "fullName": "Ahmed A.",
+            "job": "Ingénieur Data AWS/GCP"
+          },
+          {
+            "avatar": "Wejden.jpeg",
+            "fullName": "Wejden S.",
+            "job": "Ingénieur Fullstack JS"
+          },
+          {
+            "avatar": "Feriel.png",
+            "fullName": "Feriel M.",
+            "job": "Ingénieur Fullstack Java"
+          },
+          {
+            "avatar": "Marwa.png",
+            "fullName": "Marwa B.",
+            "job": "Data Scientist / Data Analyst"
+          },
+          {
+            "avatar": "unknown.jpeg",
+            "fullName": "Julien S.",
+            "job": "Architecte Cloud/Devops"
+          },
+          {
+            "avatar": "Cedric.jpeg",
+            "fullName": "Cedric L.",
+            "job": "Ingénieur Systèmes"
+          }
+        ],
+        "button": "Nous Rejoindre"
+      }
+    },
+    "customers": {
+      "header": {
+        "title": "Nos clients"
+      },
+      "content": {
+        "cards": [
+          "societe-generale.png",
+          "bnp-paris.png",
+          "disneyland-paris.png",
+          "kering.jpeg",
+          "lefebvre-sarrut.png",
+          "europcar.png",
+          "sfr.png",
+          "airbus.jpeg",
+          "oalia.png",
+          "galler-chocolatier.png",
+          "engie.png",
+          "psa.jpeg",
+          "carrefour.png",
+          "axa.png",
+          "sephora.png"
+        ]
+      }
+    }
+  },
+  "carriers": {
+    "title": "Nos offres",
+    "description": "Nous nous efforçons constamment d'améliorer et de fournir les meilleurs résultats possibles. Nos bonnes pratiques et notre culture de l'innovation nous permettent d'être moteur à vos côtés. Notre équipe accompagne vos entreprises avec agilité, engagement et pragmatisme.",
+    "header": {
+      "title": "Nous nous efforçons constamment d'améliorer et de fournir les meilleurs résultats possibles.",
+      "description": "Nos bonnes pratiques et notre culture de l'innovation nous permettent d'être moteur à vos côtés. Notre équipe accompagne vos entreprises avec agilité, engagement et pragmatisme."
+    },
+    "jobs": {
+      "header": {
+        "title": "Postulez à nos offres d'emploi"
+      },
+      "content": {
+        "cards": [
+          {
+            "id": 1,
+            "name": "Ingénieur Devops Azure AD",
+            "location": "Île-de-France, France",
+            "remote": "Télétravail partiel",
+            "experience": "5 à 10 ans d’expérience",
+            "jobDescription": {
+              "texts": [],
+              "list": []
+            },
+            "profileRequired": {
+              "texts": [
+                "Compétences / technologies / Expériences recommandées ou exigées :"
+              ],
+              "list": [
+                "Linux (Ubuntu, Debian)",
+                "OpenStack",
+                "Vmware (ESX)",
+                "Windows Serveur 2019",
+                "Authentification (Azure AD)",
+                "GitLab",
+                "GitLab-CI",
+                "Jenkins",
+                "Chaine / PipeLine CI-CD",
+                "Scripting",
+                "Shell",
+                "PowerShell",
+                "Python (Activité Devops (ie OpenStack CLI)",
+                "Maîtrise réseaux IP de base",
+                "Sécurité Mise de uvre de FW (ie PfSence,Neutron OpenStack), Proxy, reverseProxy, tel que squid, haproxy,",
+                "Rédaction documentations Techniques et Manuels",
+                "Infra as Code , Ansible, Terraform",
+                "Docker",
+                "JIRA Software (en tant que configurateur, en utilisation)",
+                "Expérience/pratique de projets en mode agile"
+              ]
+            }
+          },
+          {
+            "id": 2,
+            "name": "Ingénieur DevOps",
+            "location": "Île-de-France, France",
+            "remote": "Télétravail partiel",
+            "experience": "2 à 5 ans d’expérience",
+            "jobDescription": {
+              "texts": [],
+              "list": []
+            },
+            "profileRequired": {
+              "texts": [
+                "Compétences / technologies / Expériences recommandées ou exigées :"
+              ],
+              "list": [
+                "Linux (Ubuntu, Debian)",
+                "OpenStack",
+                "Vmware (ESX)",
+                "Windows Serveur 2019",
+                "Authentification (Azure AD)",
+                "GitLab",
+                "GitLab-CI",
+                "Jenkins",
+                "Chaine / PipeLine CI-CD",
+                "Scripting",
+                "Shell",
+                "PowerShell",
+                "Python (Activité Devops (ie OpenStack CLI)",
+                "Maîtrise réseaux IP de base",
+                "Sécurité Mise de uvre de FW (ie PfSence,Neutron OpenStack), Proxy, reverseProxy, tel que squid, haproxy,",
+                "Rédaction documentations Techniques et Manuels",
+                "Infra as Code , Ansible, Terraform",
+                "Docker",
+                "JIRA Software (en tant que configurateur, en utilisation)",
+                "Expérience/pratique de projets en mode agile"
+              ]
+            }
+          },
+          {
+            "id": 3,
+            "name": "Développeur .Net React",
+            "location": "Île-de-France, France",
+            "remote": "Télétravail partiel",
+            "experience": "2 à 5 ans d’expérience",
+            "jobDescription": {
+              "texts": [
+                "Développer des applications web utilisant les technologies .NET et React"
+              ],
+              "list": []
+            },
+            "profileRequired": {
+              "texts": [
+                "Développer des applications web utilisant les technologies .NET et React."
+              ],
+              "list": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Expert Finops",
+            "location": "Île-de-France, France",
+            "remote": "Télétravail partiel",
+            "experience": "5 à 10 ans d’expérience",
+            "salary": "80k-100k €/an",
+            "jobDescription": {
+              "texts": [
+                "Nous cherchons un/une expert FinOps",
+                "Nous recherchons pour cela des services d’ingénierie Cloud/DevOps/FinOps sur la technologie AWS.",
+                "Les services attendus sont décrits ci-dessous et couvriront l’ensemble du processus de conception, construction et maintenance des solutions proposées, tant en phase d’avant - vente(SELL) que projet (BUILD) ou encore opérations(RUN).",
+                "Les solutions en question couvrent un large panel de compétences puisqu’elles peuvent consister à :"
+              ],
+              "list": [
+                "Construire des solutions robustes et scalables en respectant les contraintes de coût, de performance et de qualité",
+                "Intervenir auprès de nos entités pour évaluer son utilisation du Cloud et sa maturité FinOps",
+                "Mettre en place les solutions de reporting des consommations Cloud (Grafana, QuickSight, PowerBI)",
+                "Participer à la définition des règles FinOps dans le Cloud (Politiques de tags, Alertes budget, policies, KPI)",
+                "Sensibilisation des équipes au pratiques FinOps",
+                "Participer aux réflexions d’architecture applicative",
+                "Préconiser les modifications applicatives pour rendre l’application Cloud Native",
+                "Assurer l’alignement des systèmes avec les règles de sécurité édictées par le groupe",
+                "Être un acteur majeur au développement de notre démarche d’industrialisation et de notre standardisation",
+                "Une approche process : description des process et des environnements de manière claire",
+                "Une approche outils : Choix du bon set d’outils et services cloud selon le besoin",
+                "Familier avec des outils open sources",
+                "Veille technologique"
+              ]
+            },
+            "profileRequired": {
+              "texts": [
+                "Nous cherchons un/une expert FinOps",
+                "Nous recherchons pour cela des services d’ingénierie Cloud/DevOps/FinOps sur la technologie AWS.",
+                "Les services attendus sont décrits ci - dessous et couvriront l’ensemble du processus de conception, construction et maintenance des solutions proposées, tant en phase d’avant - vente(SELL) que projet (BUILD) ou encore opérations(RUN)."
+              ],
+              "list": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "Ingénieur SysOps Cloud / Linux",
+            "location": "Boulogne, Pays de la Loire",
+            "remote": "Télétravail partiel",
+            "experience": "5 à 10 ans d’expérience",
+            "salary": "60k-70k €/an",
+            "jobDescription": {
+              "texts": [
+                "Dans ce cadre l’ingénieur SysOps aura pour missions de :"
+              ],
+              "list": [
+                "Garantir la disponibilité et la sécurisation des données, des systèmes et des équipements",
+                "Prendre en charge la résolution des incidents et des demandes niveau 2",
+                "Documenter les procédures liées à l’Exploitation courante des plateformes",
+                "Automatiser les gestes techniques",
+                "Admin Cloud et optimisation sur les aspects : authentification, configuration, droit, sauvegarde...",
+                "Assurer les MEP/MEPP de son périmètre"
+              ]
+            },
+            "profileRequired": {
+              "texts": [
+                "Ingénieur SysOps Cloud/ Linux (SOLOCAL - Boulogne, Bordeaux (idéalement), Rennes)."
+              ],
+              "list": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "Responsable QA e-commerce",
+            "location": "Île-de-France, France",
+            "remote": "Télétravail partiel",
+            "experience": "5 à 10 ans d'expérience",
+            "jobDescription": {
+              "texts": [
+                "Pour un de nos clients grands comptes, je recherche un Lead QA - Secteur d'activité : E-commerce",
+                "Au sein du département E-Commerce, vous êtes garant de la qualité des livrables et de la réalisation des différentes campagnes de tests pour les projets e-commerce et internationaux à forts enjeux business et d'image de marque."
+              ],
+              "list": []
+            },
+            "profileRequired": {
+              "texts": ["Responsable QA - Secteur d'activité : E-commerce"],
+              "list": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "Consultant SAP PC",
+            "location": "Île-de-France, France",
+            "remote": "Télétravail partiel",
+            "experience": "5 à 10 ans d'expérience",
+            "salary": "500-600 €/j",
+            "jobDescription": {
+              "texts": [
+                "Administration et suivi des systèmes de production et non productifs SAP ECC et BW",
+                "Administration de la base de données SAP Oracle",
+                "Analyse et résolution des incidents de niveau 3.",
+                "Gestion de projets de développement d'environnement SAP.",
+                "Gestion de la chaîne de processus via l'ordonnanceur SAP BPA.",
+                "Gestion des ordres de transport via le STMS",
+                "Assistance technique aux équipes fonctionnelles et métiers",
+                "«Refroidissement des environnements ECC et BW sur l'écosystème SAP et notamment les applications liées au DLP : TX2, Seibert display, Activisu, ERP Scale, Nidek,",
+                "Mesure des systèmes SAP (USMM, SLAW2).",
+                "Analyse des rapports Early Watch et application des recommandations.",
+                "Optimisation de la production et amélioration continue grâce à un travail de veille technologique",
+                "Rédaction et mise à jour de la documentation technique SAP o Production du reporting nécessaire au pilotage de la solution SAP pour le Responsable de Production",
+                "Mise en place et suivi des préconisations et de toutes actions permettant le respect de la réglementation en vigueur concernant l'écosystème décrit ci-dessus"
+              ],
+              "list": []
+            },
+            "profileRequired": {
+              "texts": [
+                "Administration et suivi des systèmes de production et non productifs SAP ECC et BW",
+                "Administration de la base de données SAP Oracle",
+                "Analyse et résolution des incidents de niveau 3.",
+                "Gestion de projets de développement d'environnement SAP.",
+                "Gestion de la chaîne de processus via l'ordonnanceur SAP BPA.",
+                "Gestion des ordres de transport via le STMS",
+                "Assistance technique aux équipes fonctionnelles et métiers",
+                "«Refroidissement des environnements ECC et BW sur l'écosystème SAP et notamment les applications liées au DLP : TX2, Seibert display, Activisu, ERP Scale, Nidek,",
+                "Mesure des systèmes SAP (USMM, SLAW2).",
+                "Analyse des rapports Early Watch et application des recommandations.",
+                "Optimisation de la production et amélioration continue grâce à un travail de veille technologique",
+                "Rédaction et mise à jour de la documentation technique SAP o Production du reporting nécessaire au pilotage de la solution SAP pour le Responsable de Production",
+                "Mise en place et suivi des préconisations et de toutes actions permettant le respect de la réglementation en vigueur concernant l'écosystème décrit ci-dessus"
+              ],
+              "list": []
+            }
+          }
+        ],
+        "apply": "Postulez maintenant"
+      }
+    }
+  },
+  "carrierDetails": {
+    "title": "Nos offres",
+    "description": "Nous nous efforçons constamment d'améliorer et de fournir les meilleurs résultats possibles. Nos bonnes pratiques et notre culture de l'innovation nous permettent d'être moteur à vos côtés. Notre équipe accompagne vos entreprises avec agilité, engagement et pragmatisme.",
+    "application": {
+      "content": {
+        "left": {
+          "job": {
+            "title": "Description de l'emploi"
+          },
+          "profile": {
+            "title": "Profil requis"
+          }
+        },
+        "form": {
+          "title": "Application",
+          "inputs": {
+            "firstName": {
+              "label": "Prénom",
+              "placeholder": "Prénom",
+              "validations": {
+                "required": "Vous devez saisir votre prénom."
+              }
+            },
+            "lastName": {
+              "label": "Nom de famille",
+              "placeholder": "Nom de famille",
+              "validations": {
+                "required": "Vous devez entrer votre nom de famille."
+              }
+            },
+            "email": {
+              "label": "Email",
+              "placeholder": "vous@exemple.com",
+              "validations": {
+                "required": "Vous devez saisir votre email.",
+                "pattern": "Format d'email invalide."
+              }
+            },
+            "phone": {
+              "label": "Téléphone",
+              "placeholder": "01 89 48 01 50",
+              "validations": {
+                "required": "Vous devez entrer votre numéro de téléphone.",
+                "pattern": "Format de numéro de téléphone non valide."
+              }
+            },
+            "file": {
+              "label": "Curriculum Vitae (CV)",
+              "title": "Joindre votre Curriculum Vitae (CV)",
+              "validations": {
+                "required": "Vous devez saisir votre CV.",
+                "max": "La taille du fichier ne doit pas dépasser 1 Mo."
+              }
+            },
+            "additionalInfos": {
+              "label": "Avez-vous quelque chose à ajouter?",
+              "placeholder": "Informations Complémentaires"
+            },
+            "submit": {
+              "title": "Postulez maintenant"
+            }
+          },
+          "success": "Votre candidature est envoyée !"
+        }
+      }
+    }
+  },
+  "contactUs": {
+    "title": "Contactez-nous",
+    "description": "Move2Cloud s'engage à répondre à vos questions et à satisfaire vos demandes...",
+    "header": {
+      "title": "Des questions?",
+      "description": [
+        "Move2Cloud s'engage à répondre à vos questions et à satisfaire vos demandes.",
+        "Nous vous recommandons d'utiliser le formulaire ci-dessous pour nous adresser vos demandes et/ou prendre rendez-vous."
+      ]
+    },
+    "content": {
+      "left": {
+        "title": "Prenez contact avec nous",
+        "description": [
+          "Nous vous accompagnons dans votre stratégie de transformation digitale pour répondre au mieux aux besoins du marché."
+        ],
+        "socials": [
+          {
+            "name": "LinkedIn",
+            "icon": "linkedin.svg",
+            "link": "https://www.linkedin.com/company/movetocloud"
+          }
+        ]
+      },
+      "form": {
+        "inputs": {
+          "name": {
+            "placeholder": "Votre nom",
+            "validations": {
+              "required": "Vous devez entrer votre nom."
+            }
+          },
+          "email": {
+            "placeholder": "Adresse e-mail",
+            "validations": {
+              "required": "Vous devez saisir votre email.",
+              "pattern": "Format d'email invalide."
+            }
+          },
+          "phone": {
+            "placeholder": "Téléphone",
+            "validations": {
+              "required": "Vous devez entrer votre numéro de téléphone.",
+              "pattern": "Format de numéro de téléphone non valide."
+            }
+          },
+          "subject": {
+            "placeholder": "Sujet",
+            "validations": {
+              "required": "Vous devez entrer votre sujet."
+            }
+          },
+          "message": {
+            "placeholder": "Message",
+            "validations": {
+              "required": "Vous devez entrer votre message."
+            }
+          },
+          "button": "Envoyer"
+        },
+        "success": "Nous avons bien reçu votre message et vous répondrons dans les plus brefs délais."
+      }
+    }
+  },
+  "services": {
+    "title": "Services",
+    "description": "Les nouvelles installations, les installations de rénovation et les projets de déploiement nécessitent des méthodes de gestion de projet supérieures...",
+    "devOpPractices": {
+      "header": {
+        "title": "Domaines de pratique Move2Cloud"
+      },
+      "content": {
+        "cards": [
+          {
+            "title": "Gestion de la chaîne de valeur",
+            "icon": "value-stream.png"
+          },
+          {
+            "title": "Qualité continue",
+            "icon": "continuous-quality.png"
+          },
+          {
+            "title": "Sécurité continue",
+            "icon": "continuous-security.png"
+          },
+          {
+            "title": "Contrôle de version",
+            "icon": "version-control.png"
+          },
+          {
+            "title": "Intégration continue",
+            "icon": "integration.png"
+          },
+          {
+            "title": "Déploiement continu",
+            "icon": "deployment.png"
+          },
+          {
+            "title": "Publication à la demande",
+            "icon": "release.png"
+          },
+          {
+            "title": "Planification et conception agiles",
+            "icon": "agile.png"
+          },
+          {
+            "title": "Gestion des infrastructures",
+            "icon": "infrastructure.png"
+          },
+          {
+            "title": "Gestion de la configuration",
+            "icon": "configuration.png"
+          },
+          {
+            "title": "Contrôle continu",
+            "icon": "monitoring.png"
+          },
+          {
+            "title": "Métriques de valeur",
+            "icon": "value-metrics.png"
+          }
+        ]
+      }
+    },
+    "services": {
+      "header": {
+        "title": "Services de gestion de projet sur site et en ligne",
+        "description": [
+          "Les nouvelles installations, les installations de rénovation et les projets de déploiement nécessitent des méthodes de gestion de projet supérieures tout au long du processus de développement, de conception et d'installation.",
+          "Nos chefs de projet expérimentés se concentrent sur la satisfaction de vos besoins commerciaux.",
+          "Nos services de gestion de projet incluent non seulement un chef de projet dédié affecté à votre travail, mais nous proposons également des outils de gestion de projet en ligne pour améliorer le développement de votre projet et vos communications."
+        ]
+      },
+      "content": {
+        "cards": [
+          {
+            "title": "Définir les objectifs du projet",
+            "image": "1.webp",
+            "description": [
+              "Notre équipe acquiert d'abord une compréhension complète des buts et objectifs nécessaires à la réalisation de votre projet.",
+              "Cela se fait grâce à une analyse efficace des exigences et des fonctionnalités spécifiques de câblage et de technologie de vos projets.",
+              "Chaque projet a son propre ensemble unique de circonstances qui doivent être comprises, évaluées et traitées."
+            ]
+          },
+          {
+            "title": "Planification de projet",
+            "image": "2.webp",
+            "description": [
+              "Nous construisons un plan qui répondra à vos objectifs.",
+              "Les équipes de Move2Cloud créent un plan de projet écrit comprenant tous les aspects de la manière dont le projet sera réalisé pour atteindre vos objectifs et comment nous livrerons le projet dans les délais et dans les limites du budget.",
+              "A ce stade, nous préparons la documentation qui sera utilisée par l'équipe de gestion de projet et les techniciens de terrain. Nous appelons ce document un JobPak. Il n'y a pas deux projets identiques ; c'est pourquoi chaque projet est une solution personnalisée pour répondre à vos exigences et délais spécifiques."
+            ]
+          },
+          {
+            "title": "Mise en œuvre",
+            "image": "3.jpeg",
+            "description": [
+              "Le processus de mise en œuvre transforme les plans de projet en actions définissables qui sont exécutées pour atteindre efficacement vos buts et objectifs stratégiques. En utilisant les meilleures pratiques et les expériences passées de centaines de projets réussis, notre équipe sait comment obtenir des résultats qui répondent aux attentes de toutes les parties prenantes impliquées."
+            ]
+          },
+          {
+            "title": "Communications et rapports",
+            "image": "4.webp",
+            "description": [
+              "Nous comprenons qu'une communication efficace avec un point de contact unique est la clé de tout projet.",
+              "Nous restons en contact permanent et vous tenons au courant de l'état d'avancement du projet.",
+              "Nous avons une variété de méthodes pour vous fournir des rapports personnalisés pendant le projet. Cela nous aide à nous assurer que vous aurez un aperçu complet de l'avancement du projet."
+            ]
+          },
+          {
+            "title": "Revue de projet",
+            "image": "5.jpeg",
+            "description": [
+              "Move2Cloud ne considère pas le projet comme un succès tant que vous n'êtes pas satisfait à 100 % du résultat. C'est pourquoi nous organisons périodiquement des revues de projet tout au long du déploiement pour nous assurer que nous répondons à vos exigences à chaque phase de notre travail."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "navbar": {
+    "links": {
+      "home": "Accueil",
+      "services": "Services",
+      "carriers": "Nos Offres",
+      "aboutUs": "Notre agence",
+      "boond": "Mon espace"
+    },
+    "contact": "Contact"
+  },
+  "banner": {
+    "title": "Êtes-vous prêt à renforcer l'efficacité de votre infrastructure informatique ?",
+    "description": "Avec les services DevOps, vous améliorez vos opérations et réduisez les coûts en même temps Obtenez gratuitement la consultation de nos ingénieurs DevOps ou un devis de projet",
+    "button": "Démarrez votre projet",
+    "image": "banner.jpeg"
+  },
+  "footer": {
+    "logo": "logo-white.png",
+    "banner": {
+      "title": "Prêt à rationaliser le flux de travail de votre projet ?",
+      "description": "Utilisez DevOps en tant que service pour aligner les processus et améliorer les performances afin de livrer des projets sans faille.",
+      "button": "Optimisez votre projet"
+    },
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin.svg",
+        "link": "https://www.linkedin.com/company/movetocloud"
+      }
+    ],
+    "copyright": "%app_name% © %date_year%"
+  }
+}

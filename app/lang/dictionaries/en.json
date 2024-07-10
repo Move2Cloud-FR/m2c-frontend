@@ -1,0 +1,844 @@
+{
+  "name": "EN",
+  "society": {
+    "infos": {
+      "location": "66 Av. des Champs-Élysées, 75008 Paris",
+      "phone": "(+33) 01 89 48 01 50",
+      "email": "contact@move2cloud.fr"
+    }
+  },
+  "home": {
+    "title": "Home",
+    "description": "Move2Cloud is a company of experts specializing in Data, Cloud and DevOps. Committed to providing top solutions, our expert team offers cloud migration, data management, and DevOps consulting. Contact us!",
+    "header": {
+      "content": {
+        "infos": {
+          "title": "Move2Cloud is a company of experts specializing in Data, Cloud and DevOps...",
+          "button": "Read more"
+        },
+        "image": "home-header.png"
+      }
+    },
+    "cloudProviders": {
+      "header": {
+        "title": "Top 3 Cloud Providers"
+      },
+      "content": {
+        "logo": {
+          "alt": "Cloud Providers",
+          "image": "cloud-providers.png"
+        },
+        "texts": [
+          "<strong>AWS</strong> was launched in 2006 seeing an explosive growth since then, generating revenues of $80 billion and operating income of $22.8 billion during 2022. <strong>AWS</strong> offers a variety of services including database, storage, web & mobile apps, machine learning, etc. According to Amazon, the number of active <strong>AWS</strong> users exceeds 1 million with customers such as Goldman Sachs, Disney, Samsung, Snapchat, etc.",
+          "<strong>AWS</strong> keeps raking in big time customers, during the <a href='https://s2.q4cdn.com/299287126/files/doc_financials/2022/q4/Q4-2022-Amazon-Earnings-Release.pdf' target='_noblank'>fourth quarter</a> it added Yahoo Ad Tech, Brookfield Asset Management, Wallbox, American Family Insurance, etc. Further to this, <strong>AWS</strong> also launched new regions in Spain and Switzerland as well as a second region in India to continue expanding its infrastructure footprint. As of the end of 2022, <strong>AWS</strong> has 96 availability zones within 30 geographic regions globally, with announced plans to launch 15 more availability zones and 5 more <strong>AWS</strong> regions.",
+          "Microsoft <strong>Azure</strong> was launched in 2010, however Microsoft Intelligent Cloud segment consists of other cloud services such as SQL Server, Windows Server, Visual Studio, among others. The Intelligent Cloud segment services include databases, data storage, artificial intelligence, networking, web and mobile apps, etc. Similarly to AMZN, Microsoft has also seen explosive growth during the last decade with TTM revenues standing at $81.2 billion and a whopping operating income of $34.8 billion. Microsoft enjoys of a cloud computing business that constantly generates a truly spectacular operating income margin above 40%.",
+          "According to <a href='https://dgtlinfra.com/top-10-cloud-service-providers-2022/' target='_noblank'>Dgtl Ingfra</a>, at the end of 2022 Microsoft <strong>Azure</strong> had 60 geographic regions globally and 116 availability zones. This numbers are substantially higher than <strong>AWS</strong> and <strong>Google Cloud</strong> which combined have 64 geographic regions. This of course gives Microsoft a competitive advantage regarding its reach to lure companies across the world towards its cloud services.",
+          "<strong>Google Cloud</strong> was made available for customers at the end of 2011 and since then it has become the third largest cloud service provider globally generating revenues of $26.3 billion during 2022. <strong>Google Cloud</strong> services include databases, security, smart analytics, artificial intelligence, etc. According to <a href='https://dgtlinfra.com/top-10-cloud-service-providers-2022/' target='_noblank'>Dgtl Ingfra</a>, as of the end of 2022 <strong>Google Cloud</strong> has 34 regions and 103 availability zones in operation. These regions include United States, Americas, Europe, and Asia Pacific. Thanks to its global reach, Google Cloud has been able to land <a href='https://cloud.google.com/customers' target='_noblank'>big name customers</a> such as Airbus, Procter & Gamble, Carrefour, PayPal, Vodafone, Twitter, among others."
+        ]
+      }
+    },
+    "benefits": {
+      "header": {
+        "title": "Benefits of using Cloud for enterprises"
+      },
+      "content": {
+        "cards": [
+          {
+            "title": "Collaboration",
+            "icon": "collaboration.svg"
+          },
+          {
+            "title": "Mobility",
+            "icon": "mobility.svg"
+          },
+          {
+            "title": "Data lost prevention",
+            "icon": "data-lost-prevention.svg"
+          },
+          {
+            "title": "Security",
+            "icon": "security.svg"
+          },
+          {
+            "title": "Productivity",
+            "icon": "productivity.svg"
+          },
+          {
+            "title": "Low cost",
+            "icon": "low-cost.svg"
+          },
+          {
+            "title": "Software update",
+            "icon": "software-update.svg"
+          },
+          {
+            "title": "Flexibility",
+            "icon": "flexibility.svg"
+          }
+        ],
+        "main": {
+          "image": "cloud.png"
+        }
+      }
+    },
+    "cloudSteps": {
+      "header": {
+        "title": "Move To Cloud Steps"
+      },
+      "content": {
+        "cards": [
+          {
+            "text": "Initial meeting where you will tell us all about your business.",
+            "icon": "star.svg"
+          },
+          {
+            "text": "We’ll come back to you with a solution tailored to your specific needs.",
+            "icon": "star.svg"
+          },
+          {
+            "text": "Once we have agreed the solution, we get to work implementing your system.",
+            "icon": "star.svg"
+          },
+          {
+            "text": "Seamless and secure integration of your existing business processes.",
+            "icon": "star.svg"
+          },
+          {
+            "text": "We keep it simple and user-friendly but are there for you if you require ongoing technical support.",
+            "icon": "star.svg"
+          }
+        ]
+      }
+    },
+    "tools": {
+      "header": {
+        "title": "Tools and Technologies We Use"
+      },
+      "content": {
+        "cards": [
+          {
+            "title": "Cloud Providers",
+            "description": "AWS, Azure, Alibaba, GCP",
+            "icons": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
+          },
+          {
+            "title": "Containers & Orchestration",
+            "description": "Docker, Kubernetes, Helm, Mirantis",
+            "icons": ["7.png", "8.png", "9.png", "10.png", "11.png", "12.png"]
+          },
+          {
+            "title": "CI/CD",
+            "description": "Jenkins, GitLab, GitHub, TeamCity",
+            "icons": [
+              "13.png",
+              "14.png",
+              "15.jpg",
+              "16.png",
+              "17.png",
+              "18.png"
+            ]
+          },
+          {
+            "title": "Monitoring",
+            "description": "Datadog, Pagerduty, Sysdig, SignalFX",
+            "icons": [
+              "19.svg",
+              "20.png",
+              "21.png",
+              "22.png",
+              "23.png",
+              "24.png"
+            ]
+          },
+          {
+            "title": "APIsation",
+            "description": "Refactoring of legacy projects into REST microservices and serverless APIS",
+            "icons": [
+              "25.svg",
+              "26.png",
+              "27.png",
+              "28.png",
+              "29.svg",
+              "30.png"
+            ]
+          },
+          {
+            "title": "Bigdata",
+            "description": "Create Environments for bigdata with Spark Streaming for Real-time Data Processing",
+            "icons": [
+              "31.jpeg",
+              "32.png",
+              "33.png",
+              "34.png",
+              "35.jpg",
+              "36.png"
+            ]
+          },
+          {
+            "title": "Infrastructure provisionning",
+            "description": "Terraform, Terragrunt, AWS Cloudformation and others tool for Infra-As-Code",
+            "icons": [
+              "37.png",
+              "38.png",
+              "39.png",
+              "40.png",
+              "41.png",
+              "42.png"
+            ]
+          },
+          {
+            "title": "Database managment",
+            "description": "Oracle, Postegres, MongoDB, DynamoDB, Hbase and all types of databases",
+            "icons": [
+              "43.png",
+              "44.png",
+              "45.png",
+              "46.jpg",
+              "47.jpeg",
+              "48.png"
+            ]
+          }
+        ]
+      }
+    },
+    "faq": {
+      "header": {
+        "title": "FAQ"
+      },
+      "content": [
+        {
+          "question": "What exactly is ‘cloud’?",
+          "answer": "Essentially the ‘cloud’ is a location on the internet where data and applications can be securely stored."
+        },
+        {
+          "question": "Why do i need it?",
+          "answer": "Mostly because it will allow you to focus on your core business instead of IT, but also because once you get used to it, it really can transform the way you do business."
+        },
+        {
+          "question": "Is it difficult to move to cloud?",
+          "answer": "Technically, it is not difficult but it is important to have expert advice when deciding which solutions will work for you."
+        }
+      ]
+    }
+  },
+  "aboutUs": {
+    "title": "About Us",
+    "description": "Move2Cloud is a company of experts specializing in Data, Cloud and DevOps. Committed to providing top solutions, our expert team offers cloud migration, data management, and DevOps consulting. Contact us!",
+    "team": {
+      "header": {
+        "title": "The Dream Team"
+      },
+      "content": {
+        "cards": [
+          {
+            "linkedin": "https://www.linkedin.com/in/issaabderrahmen/",
+            "avatar": "abderrahmen.jpeg",
+            "fullName": "Abderrahmen ISSA",
+            "job": "CEO"
+          },
+          {
+            "linkedin": "https://www.linkedin.com/in/cloh%C3%A9-delwalle/",
+            "avatar": "clohe.jpeg",
+            "fullName": "Clohé DELWALLE",
+            "job": "Associate manager"
+          },
+          {
+            "linkedin": "https://www.linkedin.com/in/syrine-braham-8157a4212/",
+            "avatar": "syrine.jpeg",
+            "fullName": "Syrine BRAHAM",
+            "job": "Business Engineer"
+          },
+          {
+            "avatar": "zahra.png",
+            "fullName": "Zahra G.",
+            "job": "Devops Engineer"
+          },
+          {
+            "avatar": "Sabrine.jpg",
+            "fullName": "Sabrine Z.",
+            "job": "Data Scientist / Data Analyst"
+          },
+          {
+            "avatar": "unknown.jpeg",
+            "fullName": "Iadh R.",
+            "job": "Administrateur Réseaux"
+          },
+          {
+            "avatar": "ahmed.jpeg",
+            "fullName": "Ahmed A.",
+            "job": "AWS/GCP Data Engineer"
+          },
+          {
+            "avatar": "Wejden.jpeg",
+            "fullName": "Wejden S.",
+            "job": "Fullstack JS Engineer"
+          },
+          {
+            "avatar": "Feriel.png",
+            "fullName": "Feriel M.",
+            "job": "Fullstack Java Engineer"
+          },
+          {
+            "avatar": "Marwa.png",
+            "fullName": "Marwa B.",
+            "job": "Data Scientist / Data Analyst"
+          },
+          {
+            "avatar": "unknown.jpeg",
+            "fullName": "Julien S.",
+            "job": "Architecte Cloud/Devops"
+          },
+          {
+            "avatar": "Cedric.jpeg",
+            "fullName": "Cedric L.",
+            "job": "Systems Engineer"
+          }
+        ],
+        "button": "Join Us"
+      }
+    },
+    "customers": {
+      "header": {
+        "title": "Helping our customers do amazing things"
+      },
+      "content": {
+        "cards": [
+          "societe-generale.png",
+          "bnp-paris.png",
+          "disneyland-paris.png",
+          "kering.jpeg",
+          "lefebvre-sarrut.png",
+          "europcar.png",
+          "sfr.png",
+          "airbus.jpeg",
+          "oalia.png",
+          "galler-chocolatier.png",
+          "engie.png",
+          "psa.jpeg",
+          "carrefour.png",
+          "axa.png",
+          "sephora.png"
+        ]
+      }
+    }
+  },
+  "carriers": {
+    "title": "Carriers",
+    "description": "We are constantly striving to improve and deliver the best possible results. Our best practices and our culture of innovation enable us to be a driving force at your side. Our team supports your businesses with agility, commitment and pragmatism.",
+    "header": {
+      "title": "We are constantly striving to improve and deliver the best possible results.",
+      "description": "Our best practices and our culture of innovation enable us to be a driving force at your side. Our team supports your businesses with agility, commitment and pragmatism."
+    },
+    "jobs": {
+      "header": {
+        "title": "Apply to our jobs"
+      },
+      "content": {
+        "cards": [
+          {
+            "id": 1,
+            "name": "Azure AD Devops Engineer",
+            "location": "Île-de-France, France",
+            "remote": "Partial telework",
+            "experience": "5 to 10 years of experience",
+            "jobDescription": {
+              "texts": [],
+              "list": []
+            },
+            "profileRequired": {
+              "texts": [
+                "Skills / technologies / Experience recommended or required:"
+              ],
+              "list": [
+                "Linux (Ubuntu, Debian)",
+                "Open Stack",
+                "Vmware (ESX)",
+                "Windows Server 2019",
+                "Authentication (Azure AD)",
+                "GitLab",
+                "GitLab-CI",
+                "Jenkins",
+                "Chain / PipeLine CI-CD",
+                "Scripting",
+                "Shell",
+                "PowerShell",
+                "Python (Devops activity (ie OpenStack CLI)",
+                "Mastering basic IP networks",
+                "Security Implementation of FW (ie PfSence,Neutron OpenStack), Proxy, reverseProxy, such as squid, haproxy,",
+                "Writing Technical Documentation and Manuals",
+                "Infra as Code, Ansible, Terraform",
+                "Docker",
+                "JIRA Software (as configurator, in use)",
+                "Experience/practice of projects in agile mode"
+              ]
+            }
+          },
+          {
+            "id": 2,
+            "name": "DevOps Engineer",
+            "location": "Île-de-France, France",
+            "remote": "Partial telework",
+            "experience": "2 to 5 years of experience",
+            "jobDescription": {
+              "texts": [],
+              "list": []
+            },
+            "profileRequired": {
+              "texts": [
+                "Skills / technologies / Experience recommended or required:"
+              ],
+              "list": [
+                "Linux (Ubuntu, Debian)",
+                "Open Stack",
+                "Vmware (ESX)",
+                "Windows Server 2019",
+                "Authentication (Azure AD)",
+                "GitLab",
+                "GitLab-CI",
+                "Jenkins",
+                "Chain / PipeLine CI-CD",
+                "Scripting",
+                "Shell",
+                "PowerShell",
+                "Python (Devops activity (ie OpenStack CLI)",
+                "Mastering basic IP networks",
+                "Security Implementation of FW (ie PfSence,Neutron OpenStack), Proxy, reverseProxy, such as squid, haproxy,",
+                "Writing Technical Documentation and Manuals",
+                "Infra as Code, Ansible, Terraform",
+                "Docker",
+                "JIRA Software (as configurator, in use)",
+                "Experience/practice of projects in agile mode"
+              ]
+            }
+          },
+          {
+            "id": 3,
+            "name": ".Net React Developer",
+            "location": "Île-de-France, France",
+            "remote": "Partial telework",
+            "experience": "2 to 5 years of experience",
+            "jobDescription": {
+              "texts": [
+                "Develop web applications using .NET and React technologies."
+              ],
+              "list": []
+            },
+            "profileRequired": {
+              "texts": [
+                "Develop web applications using .NET and React technologies."
+              ],
+              "list": []
+            }
+          },
+          {
+            "id": 4,
+            "name": "Finops Expert",
+            "location": "Île-de-France, France",
+            "remote": "Partial telework",
+            "experience": "5 to 10 years of experience",
+            "salary": "80k-100k €/year",
+            "jobDescription": {
+              "texts": [
+                "We are looking for a FinOps expert",
+                "For this, we are looking for Cloud/DevOps/FinOps engineering services on AWS technology.",
+                "The services expected are described below and will cover the entire process of design, construction and maintenance of the proposed solutions, both in the pre-sales phase (SELL) and project (BUILD) or even operations (RUN).",
+                "The solutions in question cover a wide range of skills since they can consist of:"
+              ],
+              "list": [
+                "Build robust and scalable solutions while respecting cost, performance and quality constraints",
+                "Intervene with our entities to assess their use of the Cloud and their FinOps maturity",
+                "Implement Cloud consumption reporting solutions (Grafana, QuickSight, PowerBI)",
+                "Participate in the definition of FinOps rules in the Cloud (tag policies, budget alerts, policies, KPIs)",
+                "Team awareness of FinOps practices",
+                "Participate in reflections on application architecture",
+                "Recommend application modifications to make the application Cloud Native",
+                "Ensure the alignment of systems with the security rules laid down by the group",
+                "To be a major player in the development of our industrialization and standardization approach",
+                "A process approach: description of processes and environments in a clear manner",
+                "A tools approach: Choosing the right set of tools and cloud services as needed",
+                "Familiar with open source tools",
+                "Technology watch"
+              ]
+            },
+            "profileRequired": {
+              "texts": [
+                "We are looking for a FinOps expert",
+                "For this, we are looking for Cloud/DevOps/FinOps engineering services on AWS technology.",
+                "The expected services are described below and will cover the entire process of design, construction and maintenance of the proposed solutions, both in the pre-sales phase (SELL) and project (BUILD) or even operations (RUN)."
+              ],
+              "list": []
+            }
+          },
+          {
+            "id": 5,
+            "name": "SysOps Cloud / Linux Engineer",
+            "location": "Boulogne, Pays de la Loire",
+            "remote": "Partial telework",
+            "experience": "5 to 10 years of experience",
+            "salary": "60k-70k €/year",
+            "jobDescription": {
+              "texts": [
+                "In this context, the SysOps engineer will be responsible for:"
+              ],
+              "list": [
+                "Guarantee the availability and security of data, systems and equipment",
+                "Support the resolution of level 2 incidents and requests",
+                "Document the procedures related to the current Operation of the platforms",
+                "Automate technical gestures",
+                "Admin Cloud and optimization on the aspects: authentication, configuration, rights, backup...",
+                "Insure the MEP/MEPP of its perimeter"
+              ]
+            },
+            "profileRequired": {
+              "texts": [
+                "SysOps Cloud/ Linux engineer (SOLOCAL - Boulogne, Bordeaux (ideally), Rennes)."
+              ],
+              "list": []
+            }
+          },
+          {
+            "id": 6,
+            "name": "Lead QA e-commerce",
+            "location": "Île-de-France, France",
+            "experience": "5 to 10 years of experience",
+            "jobDescription": {
+              "texts": [
+                "For one of our large account customers, I am looking for a Lead QA - Sector of activity: E-commerce",
+                "In the E - Commerce department, you guarantee the quality of the deliverables and the realization of the various test campaigns for e - commerce and international projects with high business and brand image issues."
+              ],
+              "list": []
+            },
+            "profileRequired": {
+              "texts": ["Lead QA - Sector of activity: E-commerce"],
+              "list": []
+            }
+          },
+          {
+            "id": 7,
+            "name": "SAP PC consultant",
+            "location": "Île-de-France, France",
+            "remote": "Partial telework",
+            "experience": "5 to 10 years of experience",
+            "salary": "500-600 €/d",
+            "jobDescription": {
+              "texts": [
+                "Administration and monitoring of SAP ECC and BW production and non-productive systems",
+                "SAP Oracle Database Administration",
+                "Analysis and resolution of level 3 incidents.",
+                "Management of SAP environment development projects.",
+                "Process chain management via I SAP BPA scheduler.",
+                "Management of transport orders via the STMS",
+                "Technical assistance to functional and business teams",
+                "Refreshment of ECC and BW environments on the SAP ecosystem and in particular applications related to DLP: TX2, Seibert display, Activisu, ERP Scale, Nidek",
+                "Measurement of SAP systems (USMM, SLAW2).",
+                "Analysis of Early Watch reports and application of recommendations.",
+                "Optimization of production and continuous improvement thanks to technological watch work",
+                "Writing and updating SAP technical documentation o Production of the reporting necessary to pilot the SAP solution for the Production Manager",
+                "Implementation and monitoring of recommendations and all actions allowing compliance with the regulations in force concerning the ecosystem described above"
+              ],
+              "list": []
+            },
+            "profileRequired": {
+              "texts": [
+                "Administration and monitoring of SAP ECC and BW production and non-productive systems",
+                "SAP Oracle Database Administration",
+                "Analysis and resolution of level 3 incidents.",
+                "Management of SAP environment development projects.",
+                "Process chain management via I SAP BPA scheduler.",
+                "Management of transport orders via the STMS",
+                "Technical assistance to functional and business teams",
+                "Refreshment of ECC and BW environments on the SAP ecosystem and in particular applications related to DLP: TX2, Seibert display, Activisu, ERP Scale, Nidek",
+                "Measurement of SAP systems (USMM, SLAW2).",
+                "Analysis of Early Watch reports and application of recommendations.",
+                "Optimization of production and continuous improvement thanks to technological watch work",
+                "Writing and updating SAP technical documentation o Production of the reporting necessary to pilot the SAP solution for the Production Manager",
+                "Implementation and monitoring of recommendations and all actions allowing compliance with the regulations in force concerning the ecosystem described above"
+              ],
+              "list": []
+            }
+          }
+        ],
+        "apply": "Apply now"
+      }
+    }
+  },
+  "carrierDetails": {
+    "title": "Carriers",
+    "description": "We are constantly striving to improve and deliver the best possible results. Our best practices and our culture of innovation enable us to be a driving force at your side. Our team supports your businesses with agility, commitment and pragmatism.",
+    "application": {
+      "content": {
+        "left": {
+          "job": {
+            "title": "Job description"
+          },
+          "profile": {
+            "title": "Profile required"
+          }
+        },
+        "form": {
+          "title": "Application",
+          "inputs": {
+            "firstName": {
+              "label": "First name",
+              "placeholder": "First name",
+              "validations": {
+                "required": "You must enter your first name."
+              }
+            },
+            "lastName": {
+              "label": "Last name",
+              "placeholder": "Last name",
+              "validations": {
+                "required": "You must enter your last name."
+              }
+            },
+            "email": {
+              "label": "Email",
+              "placeholder": "you@example.com",
+              "validations": {
+                "required": "You must enter your email.",
+                "pattern": "Invalid email format."
+              }
+            },
+            "phone": {
+              "label": "Phone",
+              "placeholder": "01 89 48 01 50",
+              "validations": {
+                "required": "You must enter your phone number.",
+                "pattern": "Invalid phone number format."
+              }
+            },
+            "file": {
+              "label": "Curriculum",
+              "title": "Attach your curriculum vitae",
+              "validations": {
+                "required": "You must enter your CV.",
+                "max": "File size must not exceed 1MB."
+              }
+            },
+            "additionalInfos": {
+              "label": "Do you have anything to add?",
+              "placeholder": "Additional information"
+            },
+            "submit": {
+              "title": "Apply now"
+            }
+          },
+          "success": "Your apply is sended!"
+        }
+      }
+    }
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "description": "Move2Cloud is committed to answering your questions and satisfying your requests.",
+    "header": {
+      "title": "Do you have a question?",
+      "description": [
+        "Move2Cloud is committed to answering your questions and satisfying your requests.",
+        "We recommend that you use the form below to send us your requests and/or make an appointment."
+      ]
+    },
+    "content": {
+      "left": {
+        "title": "Get in touch with us",
+        "description": [
+          "We support you in your digital transformation strategy to best meet market needs."
+        ],
+        "socials": [
+          {
+            "name": "LinkedIn",
+            "icon": "linkedin.svg",
+            "link": "https://www.linkedin.com/company/movetocloud"
+          }
+        ]
+      },
+      "form": {
+        "inputs": {
+          "name": {
+            "placeholder": "Your Name",
+            "validations": {
+              "required": "You must enter your name."
+            }
+          },
+          "email": {
+            "placeholder": "E-mail address",
+            "validations": {
+              "required": "You must enter your email.",
+              "pattern": "Invalid email format."
+            }
+          },
+          "phone": {
+            "placeholder": "Phone",
+            "validations": {
+              "required": "You must enter your phone number.",
+              "pattern": "Invalid phone number format."
+            }
+          },
+          "subject": {
+            "placeholder": "Subject",
+            "validations": {
+              "required": "You must enter your subject."
+            }
+          },
+          "message": {
+            "placeholder": "Message",
+            "validations": {
+              "required": "You must enter your message."
+            }
+          },
+          "button": "Send"
+        },
+        "success": "We have received your message and will get back to you as soon as possible."
+      }
+    }
+  },
+  "services": {
+    "title": "Services",
+    "description": "New installations, retrofit installations and deployment projects require superior project management methods...",
+    "devOpPractices": {
+      "header": {
+        "title": "Move2Cloud Practice Domains"
+      },
+      "content": {
+        "cards": [
+          {
+            "title": "Value Stream Management",
+            "icon": "value-stream.png"
+          },
+          {
+            "title": "Continuous Quality",
+            "icon": "continuous-quality.png"
+          },
+          {
+            "title": "Continuous Security",
+            "icon": "continuous-security.png"
+          },
+          {
+            "title": "Version Control",
+            "icon": "version-control.png"
+          },
+          {
+            "title": "Continuous Integration",
+            "icon": "integration.png"
+          },
+          {
+            "title": "Continuous Deployment",
+            "icon": "deployment.png"
+          },
+          {
+            "title": "Release on Demand",
+            "icon": "release.png"
+          },
+          {
+            "title": "Agile Planning and Design",
+            "icon": "agile.png"
+          },
+          {
+            "title": "Infrastructure Management",
+            "icon": "infrastructure.png"
+          },
+          {
+            "title": "Configuration Management",
+            "icon": "configuration.png"
+          },
+          {
+            "title": "Continuous Monitoring",
+            "icon": "monitoring.png"
+          },
+          {
+            "title": "Value Metrics",
+            "icon": "value-metrics.png"
+          }
+        ]
+      }
+    },
+    "services": {
+      "header": {
+        "title": "On-Site and Online Project Management Services",
+        "description": [
+          "New installations, remodel installations and rollout projects require superior project management methods throughout the development, design and installation process.",
+          "Our experienced project managers are focused on meeting your business requirements.",
+          "Our project management services not only include a dedicated Project Manager assigned to your job, but we also offer online project management tools to enhance your project development and communications."
+        ]
+      },
+      "content": {
+        "cards": [
+          {
+            "title": "Defining Project Goals",
+            "image": "1.webp",
+            "description": [
+              "Our team first gains a complete understanding of the goals and objectives needed to achieve your project.",
+              "This is done through effective analysis of your projects specific cabling and technology requirements and functionality.",
+              "Every project has its own unique set of circumstances that need to be understood, evaluated and addressed."
+            ]
+          },
+          {
+            "title": "Project Planning",
+            "image": "2.webp",
+            "description": [
+              "We build a plan that will meet your goals.",
+              "Move2Cloud teams creates a written project plan including every aspect of how the project will be achieved to meet your goals and how we will deliver the project on time and on budget.",
+              "At this stage, we prepare the documentation that will be used by the project management team and the field technicians. We call this document a JobPak. No two projects are the same; that is why every project is a customized solution to meet your specific requirements and timelines."
+            ]
+          },
+          {
+            "title": "Implementation",
+            "image": "3.jpeg",
+            "description": [
+              "The implementation process turns project plans into definable actions that are executed to effectively accomplish your strategic goals and objectives.  Using best practices and past experiences from hundreds of successful projects, our team knows how to achieve results that meets the expectations of all involved stakeholders."
+            ]
+          },
+          {
+            "title": "Communications and Reporting",
+            "image": "4.webp",
+            "description": [
+              "We understand that effective communications with a single point of contact is key during any project.",
+              "We stay in constant contact and keep you updated on the project status.",
+              "We have a variety of methods to provide you with custom reports during the project. This helps us ensure that you will have a complete overview of how the project is progressing."
+            ]
+          },
+          {
+            "title": "Project Review",
+            "image": "5.jpeg",
+            "description": [
+              "Move2Cloud does not consider the project a success until you are 100% satisfied with the outcome. That is why we hold project reviews periodically throughout the deployment to make sure we are meeting your requirements with each phase of our work."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "navbar": {
+    "links": {
+      "home": "Home",
+      "services": "Services",
+      "carriers": "Carriers",
+      "aboutUs": "About Us",
+      "boond": "My space"
+    },
+    "contact": "Contact"
+  },
+  "banner": {
+    "title": "Are you ready to build your IT infrastructure efficiency?",
+    "description": "With DevOps services, you will improve your operations and reduce costs at the same time Get our DevOps engineers’ consultation or a project estimate for free",
+    "button": "Start your project",
+    "image": "banner.jpeg"
+  },
+  "footer": {
+    "logo": "logo-white.png",
+    "banner": {
+      "title": "Ready to Streamline Your Project Workflow?",
+      "description": "Use DevOps as a Service for alignment of processes and performance boost to deliver flawless projects.",
+      "button": "Optimize your project now"
+    },
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin.svg",
+        "link": "https://www.linkedin.com/company/movetocloud"
+      }
+    ],
+    "copyright": "%app_name% © %date_year%"
+  }
+}
