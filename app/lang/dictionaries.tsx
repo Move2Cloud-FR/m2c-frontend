@@ -1,3 +1,4 @@
+import { ILang } from "@/app/lang/dictionaries/ILang";
 import { cookies } from "next/headers";
 import "server-only";
 
@@ -17,7 +18,7 @@ function getLocale() {
   return language.value;
 }
 
-export const getDictionary = async () => {
+export const getDictionary: () => Promise<ILang> = async () => {
   const locale = await getLocale();
   return dictionaries[locale]();
 };
