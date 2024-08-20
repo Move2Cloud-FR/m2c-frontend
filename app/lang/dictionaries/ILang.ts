@@ -1,5 +1,7 @@
+import { possibleLang } from "@/app/_types";
+
 export interface ILang {
-  name: string;
+  name: possibleLang;
   society: Society;
   home: Home;
   aboutUs: AboutUs;
@@ -213,6 +215,8 @@ export interface Card5 {
   location: string;
   remote: string;
   experience: string;
+  description?: string;
+  shortDescription?: string;
   jobDescription: JobDescription;
   profileRequired: ProfileRequired;
   salary?: string;

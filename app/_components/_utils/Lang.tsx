@@ -1,4 +1,5 @@
 "use client";
+import { possibleLang } from "@/app/_types";
 import Colors from "@/app/_utils/Colors";
 import { getImage } from "@/app/_utils/Media";
 import { setLanguageCookie } from "@/app/actions";
@@ -16,11 +17,13 @@ interface LangProps {
 export default function Lang({ lang }: LangProps) {
   // States
   const [isOpen, setIsOpen] = useState(false);
-  const [language, setLanguage] = useState(lang.name);
+  const [language, setLanguage] = useState<possibleLang>(lang.name);
 
   //Effects
   useEffect(() => {
-    const storedLanguage = localStorage.getItem("language");
+    const storedLanguage: possibleLang = localStorage.getItem(
+      "language"
+    ) as possibleLang;
     if (storedLanguage) {
       setLanguage(storedLanguage);
       setLanguageCookie(storedLanguage);
@@ -32,10 +35,10 @@ export default function Lang({ lang }: LangProps) {
     setIsOpen(!isOpen);
   };
 
-  const onChangeLang = (selectedLang: string) => {
+  const onChangeLang = (selectedLang: possibleLang) => {
     setLanguage(selectedLang);
     localStorage.setItem("language", selectedLang);
-    window.location.reload(); // Reload to apply the new language
+    // window.location.reload(); // Reload to apply the new language
   };
 
   return (
@@ -43,15 +46,15 @@ export default function Lang({ lang }: LangProps) {
       <Icon
         src={getImage(
           "images/icons/langs",
-          lang.name === "EN" ? `us_flag.png` : "french_flag.png"
+          lang.name === "en" ? `us_flag.png` : "french_flag.png"
         )}
         width={30}
         height={30}
         unoptimized
-        alt={lang.name === "EN" ? "English" : "Français"}
+        alt={lang.name === "en" ? "English" : "Français"}
       />
       <Langs open={isOpen}>
-        {lang.name === "EN" && (
+        {lang.name === "en" && (
           <LangItem onClick={() => onChangeLang("fr")}>
             <LangItemIcon
               src={getImage("images/icons/langs", "french_flag.png")}
@@ -59,7 +62,7 @@ export default function Lang({ lang }: LangProps) {
             />
           </LangItem>
         )}
-        {lang.name === "FR" && (
+        {lang.name === "fr" && (
           <LangItem onClick={() => onChangeLang("en")}>
             <LangItemIcon
               src={getImage("images/icons/langs", "us_flag.png")}
@@ -89,6 +92,7 @@ const StyledComponent = styled.button`
   justify-content: center;
   cursor: pointer;
   transition: 0.2s;
+  z-index: 999;
 
   &:hover {
     transition: 0.2s;

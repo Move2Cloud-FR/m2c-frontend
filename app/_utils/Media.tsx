@@ -1,3 +1,3 @@
-export const getImage = (path, file) => {
+export const getImage = (path: string, file: string) => {
   return `/assets/${path}/${file}`;
 };

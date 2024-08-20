@@ -1,5 +1,6 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 
 export async function setLanguageCookie(lang: string) {
@@ -7,4 +8,6 @@ export async function setLanguageCookie(lang: string) {
     // Set cookie for 1 year
     expires: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000),
   });
+  revalidatePath('/');
+
 }

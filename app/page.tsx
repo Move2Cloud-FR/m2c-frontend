@@ -1,5 +1,5 @@
 import { getDictionary } from "@/app/lang/dictionaries";
-import Home from "@/app/pages/Home";
+import Home from "@/app/_components/pages/Home";
 import Image from "next/image";
 
 interface IPageProps {

@@ -72,6 +72,7 @@ interface StyledComponentProps {
 
 const StyledComponent = styled.button<StyledComponentProps>`
   display: none;
+  z-index: 1000;
 
   @media screen and (${devices.lg}) {
     ${(props) => {

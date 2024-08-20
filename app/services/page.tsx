@@ -1,15 +1,18 @@
+import Services from "@/app/_components/pages/Services";
+import { getDictionary } from "@/app/lang/dictionaries";
+import { ILang } from "@/app/lang/dictionaries/ILang";
+import { Metadata } from "next";
 import React from "react";
+export async function generateMetadata(): Promise<Metadata> {
+  const lang: ILang = await getDictionary();
+  return {
+    title: lang.services.title,
+    description: lang.services.description,
+  };
+}
 
-export default async function Page({ params: { lang } }) {
-  console.log("lang", lang); // en
+export default async function Page() {
+  const dict = await getDictionary();
 
-  // const dict = await getDictionary(lang); // en
-  // return <button>{dict.products.cart}</button>; // Add to Cart
-
-  // const apiResponse = await fetch("http://localhost:8080/api/v1/test");
-  // const data = await apiResponse.json();
-  // console.log(data.body.data);
-
-  // return <h1>{data.body.data}</h1>;
-  return <h1>Services</h1>;
+  return <Services lang={dict} />;
 }
