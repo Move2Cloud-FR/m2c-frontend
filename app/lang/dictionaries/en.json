@@ -629,6 +629,35 @@
       }
     }
   },
+  "consultants": {
+    "title": "Consultants",
+    "description": "Move2Cloud is a company of experts specializing in Data, Cloud and DevOps. Committed to providing top solutions, our expert team offers cloud migration, data management, and DevOps consulting. Contact us!",
+    "header": {
+      "title": "Our consultants",
+      "description": "Our consultants are experts in their field and are here to help you with your projects. They are at your disposal to answer your questions and provide you with the best solutions."
+    },
+    "defaultTag": "All",
+
+    "consultants": {
+      "header": {
+        "title": "Our consultants",
+        "description": "Our consultants are experts in their field and are here to help you with your projects. They are at your disposal to answer your questions and provide you with the best solutions.."
+      },
+      "content": {
+        "discover": "Discover"
+      }
+    }
+  },
+  "consultantDetails": {
+    "title": "Consultant",
+    "description": "Move2Cloud is a company of experts specializing in Data, Cloud and DevOps. Committed to providing top solutions, our expert team offers cloud migration, data management, and DevOps consulting. Contact us!",
+    "backlink": "View all our consultants",
+    "content": {
+      "descriptionTitle": "Description",
+      "experienceTitle": "The professional experiences :",
+      "cv": "Download CV"
+    }
+  },
   "contactUs": {
     "title": "Contact Us",
     "description": "Move2Cloud is committed to answering your questions and satisfying your requests.",
@@ -815,7 +844,8 @@
       "services": "Services",
       "carriers": "Carriers",
       "aboutUs": "About Us",
-      "boond": "My space"
+      "boond": "My space",
+      "consultants": "Consultants"
     },
     "contact": "Contact"
   },

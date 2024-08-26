@@ -18,11 +18,20 @@ export async function generateMetadata({
   const { jobId } = params;
   const dict = await getDictionary();
   const language = dict.name;
-
-  const response = await fetch("http://localhost:8080/api/v1/carrier/" + jobId);
-  const data = await response.json();
-
-  const job : CarrierEntity = data.body || null;
+  let job: CarrierEntity;
+  try {
+    const response = await fetch(
+      "http://localhost:8080/api/v1/public/carrier/" + jobId
+    );
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    job = data.body;
+  } catch (error) {
+    console.error("Fetch failed:", error);
+    job = {} as CarrierEntity;
+  }
 
   return {
     title: job.name[language],
@@ -34,11 +43,20 @@ export default async function Page({ params }: PageProps) {
 
   const { jobId } = params;
   // const parsedId = parseInt(jobId);
-
-  const response = await fetch("http://localhost:8080/api/v1/carrier/" + jobId);
-  const data = await response.json();
-
-  const job : CarrierEntity = data.body || null;
+  let job: CarrierEntity;
+  try {
+    const response = await fetch(
+      "http://localhost:8080/api/v1/public/carrier/" + jobId
+    );
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    job = data.body;
+  } catch (error) {
+    console.error("Fetch failed:", error);
+    job = {} as CarrierEntity;
+  }
 
   if (!job) redirect(AppRoutes.Carriers);
   return <CarrierDetails lang={dict} job={job} />;

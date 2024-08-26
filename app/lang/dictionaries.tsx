@@ -14,7 +14,6 @@ function getLocale() {
     name: "language",
     value: "fr",
   };
-  console.log("---> Returning language from cookie", language.value);
   return language.value;
 }
 

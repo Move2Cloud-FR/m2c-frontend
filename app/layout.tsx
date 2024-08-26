@@ -13,6 +13,8 @@ import Scroll from "@/app/_components/_utils/Scroll";
 import Footer from "@/app/_components/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_WEBSITE || ""),
+
   title: {
     default: "Move2Cloud",
     template: "Move2Cloud - %s",

@@ -1,3 +1,4 @@
+import { ClientEntity } from "@/app/_types";
 import { getImage } from "@/app/_utils/Media";
 import React from "react";
 
@@ -6,10 +7,13 @@ import styled from "styled-components";
 
 // Utils
 
-export default function CustomerCard({ data }: { data: string }) {
+export default function CustomerCard({ data }: { data: ClientEntity }) {
   return (
     <StyledComponent>
-      <Logo src={getImage("images/logos", data)} alt="Logo" />
+      <Logo
+        src={data?.logo || getImage("images/avatars", "unknown.jpeg")}
+        alt={data?.name || "Logo"}
+      />
     </StyledComponent>
   );
 }

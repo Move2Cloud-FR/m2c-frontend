@@ -80,6 +80,16 @@ export default function Navbar({ lang }: INavbarProps) {
           </MenuItem>
           <MenuItem>
             <MenuItemLink
+              href={AppRoutes.Consultants}
+              customClassName={({ isActive, isPending }) => {
+                return isPending ? "pending" : isActive ? "active" : "";
+              }}
+            >
+              {lang.navbar.links.consultants}
+            </MenuItemLink>
+          </MenuItem>
+          <MenuItem>
+            <MenuItemLink
               href={AppRoutes.About}
               customClassName={({ isActive, isPending }) => {
                 return isPending ? "pending" : isActive ? "active" : "";
@@ -152,7 +162,7 @@ const MenuItems = styled.ul<MenuItemsProps>`
   ${(props) => {
     if (props.open) {
       return `
-        max-height: 200px;
+        max-height: 250px;
       `;
     }
   }}

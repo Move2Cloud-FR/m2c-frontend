@@ -22,7 +22,7 @@ export default function TeamCard({
   return (
     <StyledComponent>
       <Avatar
-        src={data.avatar}
+        src={data?.avatar || getImage("images/avatars", "unknown.jpeg")}
         alt={data.fullName[`${language}`]}
         width={160}
         height={160}

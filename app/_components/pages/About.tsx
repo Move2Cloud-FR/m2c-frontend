@@ -1,7 +1,7 @@
 "use client";
 import CustomerCard from "@/app/_components/_cards/about/CustomerCard";
 import TeamCard from "@/app/_components/_cards/about/TeamCard";
-import { TeamEntity } from "@/app/_types";
+import { ClientEntity, TeamEntity } from "@/app/_types";
 import Colors from "@/app/_utils/Colors";
 import { devices } from "@/app/_utils/Responsive";
 import { AppRoutes } from "@/app/_utils/Router";
@@ -15,9 +15,10 @@ import styled from "styled-components";
 interface AboutProps {
   lang: ILang;
   team: TeamEntity[];
+  clients: ClientEntity[];
 }
 
-export default function About({ lang, team }: AboutProps) {
+export default function About({ lang, team, clients }: AboutProps) {
   // Data
   const customers = lang.aboutUs.customers;
 
@@ -51,8 +52,8 @@ export default function About({ lang, team }: AboutProps) {
             </SectionHeader>
             <SectionContent>
               <Customers>
-                {customers.content.cards.map((customer, index) => {
-                  return <CustomerCard key={index} data={customer} />;
+                {clients.map((client, index) => {
+                  return <CustomerCard key={index} data={client} />;
                 })}
               </Customers>
             </SectionContent>

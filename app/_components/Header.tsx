@@ -47,6 +47,17 @@ export default function Header({ lang }: HeaderProps) {
             </BannerContentDescription>
           </BannerContent>
         </Banner>
+      ) : location === AppRoutes.Consultants ? (
+        <Banner>
+          <BannerContent>
+            <BannerContentTitle>
+              {lang.consultants.header.title}
+            </BannerContentTitle>
+            <BannerContentDescription>
+              {lang.consultants.header.description}
+            </BannerContentDescription>
+          </BannerContent>
+        </Banner>
       ) : null}
     </StyledComponent>
   );

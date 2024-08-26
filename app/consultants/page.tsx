@@ -1,49 +1,55 @@
-import About from "@/app/_components/pages/About";
-import { ClientEntity, TeamEntity } from "@/app/_types";
+import Consultants from "@/app/_components/pages/Consultants";
+import { ConsultantEntity, TagEntity } from "@/app/_types";
 import { getDictionary } from "@/app/lang/dictionaries";
 import { ILang } from "@/app/lang/dictionaries/ILang";
 import { Metadata } from "next";
 import React from "react";
-// export const metadata: Metadata = {
-//   title: "About Us",
-// };
-
 export async function generateMetadata(): Promise<Metadata> {
   const lang: ILang = await getDictionary();
   return {
-    title: lang.aboutUs.title,
-    description: lang.aboutUs.description,
+    title: lang.consultants.title,
+    description: lang.consultants.description,
   };
 }
-
 export default async function Page() {
   const dict = await getDictionary();
-  let team: TeamEntity[];
+  let consultants: ConsultantEntity[];
   try {
-    const response = await fetch("http://localhost:8080/api/v1/public/team");
+    const response = await fetch(
+      "http://localhost:8080/api/v1/public/consultant/tags",
+      {
+        method: "POST",
+        body: JSON.stringify([""]),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
 
     const data = await response.json();
-    team = data.body;
+    consultants = data.body;
   } catch (error) {
     console.error("Fetch failed:", error);
-    team = [];
+    consultants = [];
   }
-  let clients: ClientEntity[];
+
+  let tags: TagEntity[];
+
   try {
-    const response = await fetch("http://localhost:8080/api/v1/public/client");
+    const response = await fetch("http://localhost:8080/api/v1/public/tag");
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
 
     const data = await response.json();
-    clients = data.body;
+    tags = data.body;
   } catch (error) {
     console.error("Fetch failed:", error);
-    clients = [];
+    tags = [];
   }
 
-  return <About lang={dict} team={team} clients={clients} />;
+  return <Consultants lang={dict} consultants={consultants} tags={tags} />;
 }

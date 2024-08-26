@@ -140,7 +140,7 @@ export default function CarrierDetails({ lang, job }: CarrierProps) {
           <AboutHeader>
             <AboutHeaderTitle>{job.name[`${language}`]}</AboutHeaderTitle>
             <AboutHeaderTags>
-              {job.location && (
+              {job.location && job.location[`${language}`] && (
                 <AboutHeaderTag>
                   <AboutHeaderTagIcon
                     src={getImage("images/icons/carriers", "location.svg")}
@@ -149,7 +149,7 @@ export default function CarrierDetails({ lang, job }: CarrierProps) {
                   {job.location[`${language}`]}
                 </AboutHeaderTag>
               )}
-              {job.salary && (
+              {job.salary && job.salary[`${language}`] && (
                 <AboutHeaderTag>
                   <AboutHeaderTagIcon
                     src={getImage("images/icons/carriers", "salary.svg")}
@@ -158,7 +158,7 @@ export default function CarrierDetails({ lang, job }: CarrierProps) {
                   {job.salary[`${language}`]}
                 </AboutHeaderTag>
               )}
-              {job.remote && (
+              {job.remote && job.remote[`${language}`] && (
                 <AboutHeaderTag>
                   <AboutHeaderTagIcon
                     src={getImage("images/icons/carriers", "remote.svg")}
@@ -167,7 +167,7 @@ export default function CarrierDetails({ lang, job }: CarrierProps) {
                   {job.remote[`${language}`]}
                 </AboutHeaderTag>
               )}
-              {job.experience && (
+              {job.experience && job.experience[`${language}`] && (
                 <AboutHeaderTag>
                   <AboutHeaderTagIcon
                     src={getImage("images/icons/carriers", "experience.svg")}

@@ -21,6 +21,10 @@ export type TextList = {
 export type TextListKeys<T> = {
   [K in keyof T]: T[K] extends TextList ? K : never;
 }[keyof T];
+export type Section = {
+  sectionTitle: Lang;
+  sectionDescription: Lang;
+};
 
 export type CarrierEntity = BasicEntity & {
   name: Lang;
@@ -29,7 +33,7 @@ export type CarrierEntity = BasicEntity & {
   experience: Lang;
   description: Lang;
   shortDescription: Lang;
-  salary?: Lang;
+  salary: Lang;
   jobDescription: TextList;
   profileRequired: TextList;
 };
@@ -39,4 +43,23 @@ export type TeamEntity = BasicEntity & {
   avatar: string;
   fullName: Lang;
   job: Lang;
+};
+
+export type ConsultantEntity = BasicEntity & {
+  name: Lang;
+  shortTitle: Lang;
+  title: Lang;
+  shortDescription: Lang;
+  description: Lang;
+  cv: Lang;
+  avatar: string;
+  sections: Section[];
+  tags: string[];
+};
+export type ClientEntity = BasicEntity & {
+  name: string;
+  logo: string;
+};
+export type TagEntity = BasicEntity & {
+  tagName: Lang;
 };

@@ -7,11 +7,49 @@ export interface ILang {
   aboutUs: AboutUs;
   carriers: Carriers;
   carrierDetails: CarrierDetails;
+  consultants: Consultants;
+  consultantDetails: ConsultantsDetails;
   contactUs: ContactUs;
   services: Services;
   navbar: Navbar;
   banner: Banner;
   footer: Footer;
+}
+export interface Consultants {
+  title: string;
+  description: string;
+  header: Header14;
+  consultants: ConsultantsInfo;
+  defaultTag: string;
+}
+
+export interface Header14 {
+  title: string;
+  description: string;
+}
+export interface ConsultantsInfo {
+  header: Header15;
+  content: Content14;
+}
+
+export interface Content14 {
+  discover: string;
+}
+export interface Header15 {
+  title: string;
+  description: string;
+}
+
+export interface ConsultantsDetails {
+  title: string;
+  description: string;
+  content: Content15;
+  backlink: string;
+}
+export interface Content15 {
+  descriptionTitle: string;
+  experienceTitle: string;
+  cv: string;
 }
 
 export interface Society {
@@ -484,6 +522,7 @@ export interface Links {
   carriers: string;
   aboutUs: string;
   boond: string;
+  consultants: string;
 }
 
 export interface Banner {

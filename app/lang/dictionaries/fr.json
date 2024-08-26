@@ -630,6 +630,34 @@
       }
     }
   },
+  "consultants": {
+    "title": "Nos consultants",
+    "description": "Nos consultants sont des experts dans leur domaine et sont là pour vous aider dans vos projets. Ils sont à votre disposition pour répondre à vos questions et vous apporter les meilleures solutions.",
+    "header": {
+      "title": "Nos consultants",
+      "description": "Nos consultants sont des experts dans leur domaine et sont là pour vous aider dans vos projets. Ils sont à votre disposition pour répondre à vos questions et vous apporter les meilleures solutions."
+    },
+    "defaultTag": "Tous",
+    "consultants": {
+      "header": {
+        "title": "Nos consultants",
+        "description": "Nos consultants sont des experts dans leur domaine et sont là pour vous aider dans vos projets. Ils sont à votre disposition pour répondre à vos questions et vous apporter les meilleures solutions."
+      },
+      "content": {
+        "discover": "Découvrir"
+      }
+    }
+  },
+  "consultantDetails": {
+    "title": "Consultant",
+    "description": "Nos consultants sont des experts dans leur domaine et sont là pour vous aider dans vos projets. Ils sont à votre disposition pour répondre à vos questions et vous apporter les meilleures solutions.",
+    "backlink": "Voir tous nos consultants",
+    "content": {
+      "descriptionTitle": "Description",
+      "experienceTitle": "Les expériences professionnelles :",
+      "cv": "Télécharger le CV"
+    }
+  },
   "contactUs": {
     "title": "Contactez-nous",
     "description": "Move2Cloud s'engage à répondre à vos questions et à satisfaire vos demandes...",
@@ -816,7 +844,8 @@
       "services": "Services",
       "carriers": "Nos Offres",
       "aboutUs": "Notre agence",
-      "boond": "Mon espace"
+      "boond": "Mon espace",
+      "consultants": "Nos consultants"
     },
     "contact": "Contact"
   },
