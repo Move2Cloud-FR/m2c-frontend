@@ -20,7 +20,9 @@ export default async function Page() {
   const dict = await getDictionary();
   let team: TeamEntity[];
   try {
-    const response = await fetch("http://localhost:8080/api/v1/public/team");
+    const response = await fetch(
+      "http://localhost:8080/m2c-backend/v1/public/team"
+    );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -33,7 +35,9 @@ export default async function Page() {
   }
   let clients: ClientEntity[];
   try {
-    const response = await fetch("http://localhost:8080/api/v1/public/client");
+    const response = await fetch(
+      "http://localhost:8080/m2c-backend/v1/public/client"
+    );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }

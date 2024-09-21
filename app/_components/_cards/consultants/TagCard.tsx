@@ -18,7 +18,7 @@ export default function TagCard({
 
   return (
     <StyledComponent selected={selected} onClick={() => onClick(data)}>
-      {data.tagName[`${language}`]}
+      {data.tagName}
     </StyledComponent>
   );
 }

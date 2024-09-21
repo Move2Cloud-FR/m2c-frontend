@@ -16,14 +16,7 @@ export default async function Page() {
   let consultants: ConsultantEntity[];
   try {
     const response = await fetch(
-      "http://localhost:8080/api/v1/public/consultant/tags",
-      {
-        method: "POST",
-        body: JSON.stringify([""]),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
+      "http://localhost:8080/m2c-backend/v1/public/consultant"
     );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
@@ -39,7 +32,9 @@ export default async function Page() {
   let tags: TagEntity[];
 
   try {
-    const response = await fetch("http://localhost:8080/api/v1/public/tag");
+    const response = await fetch(
+      "http://localhost:8080/m2c-backend/v1/public/tag"
+    );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }

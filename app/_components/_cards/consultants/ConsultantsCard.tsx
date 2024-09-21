@@ -1,5 +1,6 @@
 import { ConsultantEntity } from "@/app/_types";
 import Colors from "@/app/_utils/Colors";
+import { openExternalLink } from "@/app/_utils/Link";
 import { getImage } from "@/app/_utils/Media";
 import { AppRoutes } from "@/app/_utils/Router";
 import { ILang } from "@/app/lang/dictionaries/ILang";
@@ -15,30 +16,28 @@ export default function ConsultantsCard({ data, lang }: ConsultantCardProps) {
   const language = lang.name;
 
   return (
-    <StyledComponent href={`${AppRoutes.ConsultantDetails}/${data.id}`}>
+    <StyledComponent onClick={(e) => openExternalLink(e, data.cvUrl)}>
       <Header>
         <Avatar
           src={data?.avatar || getImage("images/avatars", "unknown.jpeg")}
-          alt={data.name[`${language}`]}
+          alt={data.fullName}
           width={160}
           height={160}
         />
-        <HeaderTitle>{data.name[`${language}`]}</HeaderTitle>
-        <HeaderLocation>{data.shortTitle[`${language}`]}</HeaderLocation>
+        <HeaderTitle>{data.fullName}</HeaderTitle>
+        <HeaderLocation>{data.title}</HeaderLocation>
       </Header>
       <Content>
-        {data.shortDescription && (
-          <ContentDescription>
-            {data.shortDescription[`${language}`]}
-          </ContentDescription>
+        {data.description && (
+          <ContentDescription>{data.description}</ContentDescription>
         )}
       </Content>
       <Footer>
         <FooterButton>
-          {lang.consultants.consultants.content.discover}
+          {lang.consultants.consultants.content.previewCV}
           <FooterButtonIcon
             src={getImage("images/icons", "right-arrow.svg")}
-            alt={lang.consultants.consultants.content.discover}
+            alt={lang.consultants.consultants.content.previewCV}
             width={22}
             height={22}
           />
@@ -48,7 +47,7 @@ export default function ConsultantsCard({ data, lang }: ConsultantCardProps) {
   );
 }
 
-const StyledComponent = styled(Link)`
+const StyledComponent = styled.div`
   background-color: white;
   border-radius: 10px;
   box-shadow: 10px 10px 30px rgb(0 0 0 / 7%);

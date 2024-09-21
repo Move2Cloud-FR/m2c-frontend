@@ -23,11 +23,11 @@ export default function TeamCard({
     <StyledComponent>
       <Avatar
         src={data?.avatar || getImage("images/avatars", "unknown.jpeg")}
-        alt={data.fullName[`${language}`]}
+        alt={data.fullName}
         width={160}
         height={160}
       />
-      {data.fullName && <FullName>{data.fullName[`${language}`]}</FullName>}
+      {data.fullName && <FullName>{data.fullName}</FullName>}
       {data.job && <Job>{data.job[`${language}`]}</Job>}
       <Socials>
         {data.linkedin && (

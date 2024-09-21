@@ -33,7 +33,7 @@ export interface ConsultantsInfo {
 }
 
 export interface Content14 {
-  discover: string;
+  previewCV: string;
 }
 export interface Header15 {
   title: string;

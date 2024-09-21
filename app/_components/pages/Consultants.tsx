@@ -4,7 +4,6 @@ import TagCard from "@/app/_components/_cards/consultants/TagCard";
 import { ConsultantEntity, TagEntity } from "@/app/_types";
 import Colors from "@/app/_utils/Colors";
 import { devices } from "@/app/_utils/Responsive";
-import { fetchConsultantsByTags } from "@/app/actions";
 import { ILang } from "@/app/lang/dictionaries/ILang";
 import React, { useState } from "react";
 import styled from "styled-components";
@@ -31,8 +30,13 @@ export default function Consultants({
         : [...selectedTags.filter((item) => item !== ""), tagId];
     setSelectedTags(updatedTags);
 
-    const consultants = await fetchConsultantsByTags(updatedTags);
-    setFilteredConsultants(consultants);
+    setFilteredConsultants(
+      updatedTags[0] === ""
+        ? consultants
+        : consultants.filter((consultant) => {
+            return consultant.tags.some((tag) => updatedTags.includes(tag.id));
+          })
+    );
   };
   return (
     <StyledPage>
@@ -52,12 +56,9 @@ export default function Consultants({
                 key={""}
                 data={{
                   id: "",
-                  tagName: {
-                    en: "",
-                    fr: "",
-                    [lang.name]: lang.consultants.defaultTag,
-                  },
-                  visible: true,
+                  tagName: lang.consultants.defaultTag,
+                  index: 0,
+                  enabled: true,
                 }}
                 lang={lang}
                 selected={selectedTags.includes("")}
