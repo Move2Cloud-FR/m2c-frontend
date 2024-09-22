@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "loc": "env-cmd -f .env vite",
-    "dev": "env-cmd -f .env-dev vite",
-    "prd": "env-cmd -f .env-prd vite",
+    "loc": "env-cmd -f .env next dev",
+    "dev": "env-cmd -f .env-dev next dev",
+    "prd": "env-cmd -f .env-prd next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -14,6 +14,7 @@
     "@emailjs/browser": "^3.11.0",
     "@hookform/error-message": "^2.0.1",
     "email-js": "^2.0.2",
+    "env-cmd": "^10.1.0",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
