@@ -21,7 +21,7 @@ export async function generateMetadata({
   let job: CarrierEntity;
   try {
     const response = await fetch(
-      "http://localhost:8080/m2c-backend/v1/public/carrier/" + jobId
+      process.env.NEXT_PUBLIC_BACKEND_BASE_URL + "/public/carrier/" + jobId
     );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
@@ -46,7 +46,7 @@ export default async function Page({ params }: PageProps) {
   let job: CarrierEntity;
   try {
     const response = await fetch(
-      "http://localhost:8080/m2c-backend/v1/public/carrier/" + jobId
+      process.env.NEXT_PUBLIC_BACKEND_BASE_URL + "/public/carrier/" + jobId
     );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);

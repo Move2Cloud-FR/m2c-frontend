@@ -21,7 +21,7 @@ export default async function Page() {
   let team: TeamEntity[];
   try {
     const response = await fetch(
-      "http://localhost:8080/m2c-backend/v1/public/team"
+      process.env.NEXT_PUBLIC_BACKEND_BASE_URL + "/public/team"
     );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
@@ -36,7 +36,7 @@ export default async function Page() {
   let clients: ClientEntity[];
   try {
     const response = await fetch(
-      "http://localhost:8080/m2c-backend/v1/public/client"
+      process.env.NEXT_PUBLIC_BACKEND_BASE_URL + "/public/client"
     );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);

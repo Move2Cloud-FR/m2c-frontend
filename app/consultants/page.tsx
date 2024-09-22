@@ -16,7 +16,7 @@ export default async function Page() {
   let consultants: ConsultantEntity[];
   try {
     const response = await fetch(
-      "http://localhost:8080/m2c-backend/v1/public/consultant"
+      process.env.NEXT_PUBLIC_BACKEND_BASE_URL + "/public/consultant"
     );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
@@ -33,7 +33,7 @@ export default async function Page() {
 
   try {
     const response = await fetch(
-      "http://localhost:8080/m2c-backend/v1/public/tag"
+      process.env.NEXT_PUBLIC_BACKEND_BASE_URL + "/public/tag"
     );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
