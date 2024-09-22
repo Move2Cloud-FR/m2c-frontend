@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "loc": "next dev",
-    "dev": "next dev",
-    "prd": "next dev",
+    "loc": "env-cmd -f .env vite",
+    "dev": "env-cmd -f .env-dev vite",
+    "prd": "env-cmd -f .env-prd vite",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
