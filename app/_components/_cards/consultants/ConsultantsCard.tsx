@@ -19,7 +19,7 @@ export default function ConsultantsCard({ data, lang }: ConsultantCardProps) {
     <StyledComponent onClick={(e) => openExternalLink(e, data.cvUrl)}>
       <Header>
         <Avatar
-          src={data?.avatar || getImage("images/avatars", "unknown.jpeg")}
+          src={data?.avatar =="Female" ? getImage("images/avatars", "unknown_female.jpg") : getImage("images/avatars", "unknown.jpeg")}
           alt={data.fullName}
           width={160}
           height={160}
