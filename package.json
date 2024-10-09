@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "loc": "env-cmd -f .env next dev",
-    "dev": "env-cmd -f .env-dev next dev",
-    "prd": "env-cmd -f .env-prd next dev",
+    "local": "env-cmd -f environments/local/.env next dev",
+    "dev": "env-cmd -f environments/dev/.env next dev",
+    "prd": "env-cmd -f environments/prd/.env next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
