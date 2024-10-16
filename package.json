@@ -6,7 +6,10 @@
     "local": "env-cmd -f environments/local/.env next dev",
     "dev": "env-cmd -f environments/dev/.env next dev",
     "prd": "env-cmd -f environments/prd/.env next dev",
-    "build": "next build",
+    "build": "env-cmd -f environments/local/.env next build",
+    "build-local": "env-cmd -f environments/local/.env next build",
+    "build-dev": "env-cmd -f environments/dev/.env next build",
+    "build-prd": "env-cmd -f environments/prd/.env next build",
     "start": "next start",
     "lint": "next lint"
   },

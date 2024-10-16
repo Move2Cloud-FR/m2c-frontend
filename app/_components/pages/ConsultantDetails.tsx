@@ -55,16 +55,15 @@ export default function ConsultantDetails({
           <Flex>
             <AboutHeader>
               <AboutHeaderTitle>
-                {consultant.name &&
-                  consultant.name[language] &&
-                  `${consultant.name[language]} : `}{" "}
-                {consultant.title && `${consultant.title[language]}`}
+                {consultant.fullName &&
+                  `${consultant.fullName} : `}{" "}
+                {consultant.title && `${consultant.title}`}
               </AboutHeaderTitle>
               <AboutHeaderTags>
                 {tags &&
                   tags.map((tag) => (
                     <AboutHeaderTag key={tag.id}>
-                      {tag.tagName[language]}
+                      {tag.tagName}
                     </AboutHeaderTag>
                   ))}
               </AboutHeaderTags>
@@ -75,7 +74,7 @@ export default function ConsultantDetails({
                   </AboutSectionTitle>
                   <AboutSectionDescription>
                     <AboutSectionDescriptionText>
-                      {consultant.description[language]}
+                      {consultant.description}
                     </AboutSectionDescriptionText>
                   </AboutSectionDescription>
                 </AboutSection>
@@ -88,29 +87,10 @@ export default function ConsultantDetails({
             />
           </Flex>
           <AboutContent>
-            {consultant.sections && (
-              <AboutSection>
-                <AboutSectionTitle>
-                  {lang.consultantDetails.content.experienceTitle}
-                </AboutSectionTitle>
-                {consultant.sections.map((section, index) => (
-                  <div key={`${language}-section-${index}`}>
-                    <AboutSectionSubTitle>
-                      {section.sectionTitle[language] + " : "}
-                    </AboutSectionSubTitle>
-                    <AboutSectionDescription>
-                      <AboutSectionDescriptionText>
-                        {section.sectionDescription[language]}
-                      </AboutSectionDescriptionText>
-                    </AboutSectionDescription>
-                  </div>
-                ))}
-              </AboutSection>
-            )}
-            {consultant.cv && consultant.cv[language] && (
+            {consultant.cvUrl && (
               <AboutSection>
                 <AboutSectionCVButton
-                  href={consultant.cv[language]}
+                  href={consultant.cvUrl}
                   target="_blank"
                 >
                   <AboutSectionCVButtonImg
