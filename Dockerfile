@@ -28,7 +28,7 @@ RUN npm run build-$environment
 #########################################################################
 FROM base AS runner
 
-ENV NODE_ENV production
+ENV NODE_ENV=production
 
 WORKDIR /app
 RUN addgroup --system --gid 1001 nodejs
@@ -48,7 +48,8 @@ USER nextjs
 
 EXPOSE 3000
 
-ENV PORT 3000
+ENV PORT=3000
 
 # server.js is created by next build from the standalone output
-CMD HOSTNAME="0.0.0.0" node server.js
+ENV HOSTNAME="0.0.0.0"
+CMD ["node", "server.js"]
